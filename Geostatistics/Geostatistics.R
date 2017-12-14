@@ -20,7 +20,7 @@ library(reshape)
 library(rasterVis)
 
 #setting the work folder
-setwd("C:\\Users\\owner\\Desktop\\UT_ML_Lexture_Dec_2017\\Datasets\\Harare\\Single_Date22_06_84\\LandsatTM_Only")
+setwd("E:\\LandsatTM")
 
 #Create a list of raster bands that will be used for classification.
 rasList=list.files(getwd(),pattern="img$", full.names=TRUE)
